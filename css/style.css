@@ -1,0 +1,153 @@
+/*navbar styles*/
+
+.navbar{
+    justify-content: space-between;
+   
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+
+    margin-right: 200px;
+    
+}
+.header{
+   background-color: rgba(17, 17, 17, 1) ;
+    justify-content: space-between;
+}
+.display-flex{
+    display: flex;
+}
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+   
+}
+
+.item-link{
+    text-decoration: none;
+    font-size: 17px;
+    color:white;
+}
+
+.brand{
+    color: white;
+    margin-left: 20px;
+   
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.white-color{
+    color: white;
+}
+
+.banner-description{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.banner-image{
+    margin-right: 200px;
+}
+
+.btn-primary{
+    background-color: chocolate;
+    color: aliceblue;
+    padding: 10px 25px;
+    border-radius: 40px;
+}
+.btn-nav{
+    background-color: chocolate;
+    color: aliceblue;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
+
+.btn{
+    color: aliceblue;
+    padding: 5px 25px;
+    border-radius: 20px;
+
+}
+.btn-gen{
+    
+    padding: 10px 25px;
+    border-radius: 40px;
+
+}
+
+.hbt-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.cng-yr-hbt{
+    background-color: black;
+
+}
+
+.run{
+    background-color: black;
+    color:white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.run-btn{
+    background-color: chocolate;
+    color: aliceblue;
+    padding: 5px 25px;
+    border-radius: 20px;
+
+}
+
+.run-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.run-img{
+    width: 50%;
+    
+}
+
+
+
+    .meet-our-team-img img {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        width: 150px; /* Set the width you desire */
+        height: 150px; /* Set the height you desire */
+        object-fit: cover; /* Ensures the image covers the area and maintains aspect ratio */
+        margin: 10px; /* Optional: Adds space between images */
+        border-radius: 10px; /* Optional: Adds rounded corners to the images */
+     
+    }
+ 
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .meet-our-team{
+        background-color: black;
+        color:white;
+
+    }
+ 
+
+    .footer{
+        background-color: black;
+        color:white;
+
+        display: flex;
+        gap: 20px;
+    }
